@@ -1,4 +1,6 @@
+os: linux
 dist: bionic
+
 language:
   - cpp
 
@@ -9,6 +11,7 @@ addons:
   sonarcloud:
     organization: "godofredovascancelos"
     token: $SONAR_TOKEN
+    
 script:
   - qmake
   - make
