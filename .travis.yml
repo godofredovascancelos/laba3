@@ -7,7 +7,7 @@ before_install:
 
 addons:
   sonarcloud:
-    organization: "brovkinartem"
+    organization: "godofredovascancelos"
     token: $SONAR_TOKEN
 script:
   - qmake
